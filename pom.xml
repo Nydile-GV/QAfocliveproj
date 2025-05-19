@@ -52,5 +52,10 @@
 			<artifactId>selenium-htmlunit-driver</artifactId>
 			<version>2.52.0</version>
 		</dependency>
+		<dependency>
+			<groupId>td</groupId>
+			<artifactId>Test_ng_project</artifactId>
+			<version>0.0.1-SNAPSHOT</version>
+		</dependency>
 	</dependencies>
 </project>
