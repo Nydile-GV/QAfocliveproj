@@ -36,6 +36,13 @@ public class LoginPages {
 	
 	@FindBy(linkText="Forgotten Password")
 	public static WebElement forgotpassword;
+	
+	public static void dologinforOrders()
+	{
+		Elements.TypeText(loginemail, Base.reader.getUsername());
+		Elements.TypeText(loginpassword,Base.reader.getPassword());
+		Elements.click(LoginPages.loginbutton);
+	}
 	}
 	
 	

@@ -15,5 +15,8 @@ public class SearchResultsPages {
 	
 	@FindBy(linkText="Samsung")
 	public static WebElement SamsungProduct;
+	
+	@FindBy(xpath = "//span[text()='Add to cart'][1]")
+	public static WebElement Addtocart;
 
 }
